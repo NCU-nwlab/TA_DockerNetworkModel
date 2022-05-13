@@ -84,7 +84,7 @@ $ ip link show
 
 ```shell
 $ sudo ip link set vth0 netns ns0
-$ sudo ip link set vth1 netns ns2
+$ sudo ip link set vth1 netns ns1
 ```
 
 這時候我們再使用 `ip link show` 確認一下
